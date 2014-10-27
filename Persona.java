@@ -10,11 +10,17 @@ public class Persona
 {
 private int edad;
 
-public Persona(int suEdad)
+/**
+ * Introduce la edad para la persona que se esta creando.
+ */
+public Persona(int suEdad) 
 //Crea una persona, introduce su edad.
 {
 edad = suEdad;
 }
+/**
+ * Devuelve la edad de la persona creada.
+ */
 public int getEdad()
 //Devuelve la edad de la persona.
 {
